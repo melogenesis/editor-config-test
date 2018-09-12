@@ -1,11 +1,2 @@
 # top-most EditorConfig file
 root = true
-
-# Unix-style newlines with a newline ending every file
-[*]
-charset = utf-8
-trim_trailing_whitespace = false
-end_of_line = lf
-insert_final_newline = false
-indent_style = tab
-indent_size = 1
