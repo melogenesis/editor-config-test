@@ -13,7 +13,7 @@ class Solution {
 		
 	    bool lemonadeChange(vector<int>& bills) {
 	    	
-	    	if( bills.size() > 10000 || bills.empty() || bills[0]== 10 || bills[0]== 20 || bills.size() == 0 || bills.size() < 0) {
+	    	if(bills.size() > 10000 || bills.empty() || bills[0]== 10 || bills[0]== 20 || bills.size() == 0 || bills.size() < 0) {
 	    		cout << "FALSE!" << endl; 
 				return false;
 			}
@@ -23,7 +23,7 @@ class Solution {
 //	        	for (int i=0; i<bills.size(); i++)
 //						cout << bills[i] << " ";
 	        	
-	        	for (int i=0; i<bills.size(); i++)  {
+	        	for (int i=0; i<bills.size(); i++) {
 	        		
 	        		if(bills[i]==5) { // 5
 	        			
